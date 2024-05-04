@@ -41,7 +41,6 @@ public class Exercicio03 {
 		}
 
 		System.out.println("Nome\t\t\tAltura\tIdade");
-
 		for (int i = 0; i < pessoas; i++) {
 			System.out.println(nome[i] + "\t\t\t" + altura[i] + "\t" + idade[i]);
 		}
@@ -52,7 +51,7 @@ public class Exercicio03 {
 		double porcentagemAbaixo = (idadeMenor / pessoas) * 100;
 		System.out.println("Porcentagem de pessoas abaixo de 16 anos e seus nomes");
 		System.out.print("Porcentagem: " + porcentagemAbaixo + "%. Nomes: ");
-
+		
 		for (int i = 0; i < pessoas; i++) {
 			if (nomeMenor[i] != null) {
 				System.out.println(nomeMenor[i]);
