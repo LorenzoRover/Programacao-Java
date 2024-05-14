@@ -2,7 +2,10 @@ package exercicios;
 
 import java.util.Scanner;
 
-public class exercicio06 {
+public class Exercicio06 {
+	
+	/* Elabore um programa que receba três notas de um aluno e calcule a média. Se a média for maior ou
+	igual a 7, imprima "Aprovado"; caso contrário, imprima "Reprovado". */
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

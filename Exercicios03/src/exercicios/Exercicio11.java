@@ -1,6 +1,8 @@
 package exercicios;
 
 public class Exercicio11 {
+	
+	/* Desenvolva um programa que imprima os números pares de 2 a 20 usando um loop for */
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

@@ -3,6 +3,8 @@ package vetor;
 import java.util.Scanner;
 
 public class Exercicio01 {
+	
+	/* Crie um programa que leia um vetor de 10 números inteiros e exiba a soma de todos os elementos. */
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

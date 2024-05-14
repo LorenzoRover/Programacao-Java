@@ -3,6 +3,9 @@ package exercicios;
 import java.util.Scanner;
 
 public class Exercicio04 {
+	
+	/* Leia um valor inteiro X (1 <= X <= 1000). Em seguida mostre os ímpares de 1 até X, um valor por linha,
+	inclusive X, se for o caso. */
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

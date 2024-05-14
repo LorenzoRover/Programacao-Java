@@ -4,6 +4,9 @@ import java.util.Random;
 import java.util.Scanner;
 
 public class Exercicio12 {
+	
+	/* Elabore um programa que percorra uma String e identifica a quantidade de letras "a" que contém nesta
+	String. */
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

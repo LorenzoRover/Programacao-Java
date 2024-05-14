@@ -2,7 +2,10 @@ package exercicios;
 
 import java.util.Scanner;
 
-public class exercicio07 {
+public class Exercicio07 {
+	
+	/* Desenvolva um programa que peça ao usuário uma letra do alfabeto e determine se é uma vogal ou uma
+	consoante. Lembre-se do método .contains() de String */
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

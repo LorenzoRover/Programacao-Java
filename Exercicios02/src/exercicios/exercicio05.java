@@ -2,7 +2,9 @@ package exercicios;
 
 import java.util.Scanner;
 
-public class exercicio05 {
+public class Exercicio05 {
+	
+	/* Desenvolva um programa que peça ao usuário três números e imprima o maior deles. */
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

@@ -2,7 +2,10 @@ package exercicios;
 
 import java.util.Scanner;
 
-public class exercicio12 {
+public class Exercicio12 {
+	
+	/* Usando o operador ternário, crie um programa que recebe dois números inteiros como entrada e exibe o
+	maior deles. */
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

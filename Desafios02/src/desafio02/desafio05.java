@@ -2,7 +2,15 @@ package desafio02;
 
 import java.util.Scanner;
 
-public class desafio05 {
+public class Desafio05 {
+	
+	/* Simule as operações de um caixa eletrônico. O programa deve oferecer diversas opções, e o usuário
+	poderá escolher entre:
+	• Consultar Saldo
+	• Sacar Dinheiro
+	• Depositar Dinheiro
+	• Transferir Dinheiro
+	• Encerrar */
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

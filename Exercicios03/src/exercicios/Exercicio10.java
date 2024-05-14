@@ -3,6 +3,9 @@ package exercicios;
 import java.util.Scanner;
 
 public class Exercicio10 {
+	
+	/* Desenvolva um programa que peça ao usuário para inserir números até que ele insira um número negativo.
+	O programa deve então imprimir a soma dos números positivos inseridos. */
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

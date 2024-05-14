@@ -2,7 +2,10 @@ package exercicios;
 
 import java.util.Scanner;
 
-public class exercicio11 {
+public class Exercicio11 {
+	
+	/* Desenvolva um programa que peça ao usuário para inserir um número de 1 a 12 representando um mês
+	do ano. O programa deve imprimir o número de dias e o nome do mês usando um switch-case. */
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

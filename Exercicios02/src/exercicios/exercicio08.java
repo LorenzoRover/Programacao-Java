@@ -2,7 +2,11 @@ package exercicios;
 
 import java.util.Scanner;
 
-public class exercicio08 {
+public class Exercicio08 {
+	
+	/* Elabore um programa que simule um caixa eletrônico. O usuário deve informar o valor que deseja sacar.
+	O programa deve calcular o número de notas de cada valor (100, 50, 20, 10, 5, 2, 1) necessárias para
+	compor o valor total. */
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

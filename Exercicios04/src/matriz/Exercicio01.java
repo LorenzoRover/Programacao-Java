@@ -4,6 +4,8 @@ import java.util.Random;
 import java.util.Scanner;
 
 public class Exercicio01 {
+	
+	/* Faça um programa que realize a soma de duas matrizes 3x3 */
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

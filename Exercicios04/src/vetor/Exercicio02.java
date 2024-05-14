@@ -4,6 +4,8 @@ import java.util.Arrays;
 import java.util.Scanner;
 
 public class Exercicio02 {
+	
+	/* Faça um programa que leia um vetor de 10 números inteiros e verifique se ele está em ordem crescente. */
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

@@ -1,6 +1,8 @@
 package exercicios;
 
 public class Exercicio09 {
+	
+	/* Elabore um programa que calcule a soma dos números de 1 a 100 usando um loop for */
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

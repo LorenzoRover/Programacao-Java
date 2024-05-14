@@ -3,6 +3,8 @@ package exercicios;
 import java.util.Scanner;
 
 public class Exercicio13 {
+	
+	/* Elabora a funcionalidade do método equals da classe String usando estrutura de repetição */
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

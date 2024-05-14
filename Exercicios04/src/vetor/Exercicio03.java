@@ -3,6 +3,11 @@ package vetor;
 import java.util.Scanner;
 
 public class Exercicio03 {
+	
+	/* . Fazer um programa para ler nome, idade e altura de N pessoas, conforme exemplo. Depois, mostrar na
+	tela a altura média das pessoas, e mostrar também a porcentagem de pessoas com menos de 16 anos,
+	bem como os nomes dessas pessoas caso houver. Você deve ter um vetor para armazenar os nomes,
+	outro para as idades e por fim um para as alturas. */
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

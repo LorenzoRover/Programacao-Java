@@ -2,7 +2,16 @@ package exercicios;
 
 import java.util.Scanner;
 
-public class exercicio13 {
+public class Exercicio13 {
+	
+	/* Crie um programa que recebe uma nota de 0 a 10 e converte para um conceito de A a F utilizando a
+	instrução switch-case.
+	A: 9-10
+	B: 8
+	C: 7
+	D: 6
+	E: 5
+	F: restante (default) */
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

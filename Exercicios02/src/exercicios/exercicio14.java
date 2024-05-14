@@ -2,7 +2,10 @@ package exercicios;
 
 import java.util.Scanner;
 
-public class exercicio14 {
+public class Exercicio14 {
+	
+	/* Crie um programa que exibe um menu com opções numeradas de 1 a 3. O usuário deve escolher uma
+	opção, e o programa deve exibir uma mensagem correspondente. Utilize a instrução switch-case. */
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

@@ -2,7 +2,10 @@ package exercicios;
 
 import java.util.Scanner;
 
-public class exercicio04 {
+public class Exercicio04 {
+	
+	/* Crie um programa que solicite ao usuário o nome de um dia da semana e informe se é um dia útil ou um
+	final de semana. */
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

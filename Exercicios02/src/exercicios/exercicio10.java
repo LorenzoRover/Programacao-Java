@@ -2,7 +2,10 @@ package exercicios;
 
 import java.util.Scanner;
 
-public class exercicio10 {
+public class Exercicio10 {
+	
+	/* Desenvolva um programa que calcule o Índice de Massa Corporal (IMC) a partir do peso e altura
+	informados pelo usuário, e informe a categoria de acordo com a tabela IMC. */
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
