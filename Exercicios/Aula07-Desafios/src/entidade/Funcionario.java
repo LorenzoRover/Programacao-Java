@@ -35,6 +35,13 @@ public class Funcionario {
 		this.salario = salario;
 	}
 	
-	
+	public void aumentarSalario(double porcentagem) {
+		salario = salario + (salario * porcentagem) / 100.0;
+	}
+
+	@Override
+	public String toString() {
+		return "Funcionario [id=" + id + ", nome=" + nome + ", salario=" + salario + "]";
+	}
 	
 }

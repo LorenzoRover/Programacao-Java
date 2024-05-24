@@ -18,7 +18,13 @@ public class Exercicio01 {
 		
 		adicionarFuncionario(funcionarios);
 		aumentoSalario(funcionarios);
-		
+		mostrarFuncionarios(funcionarios);
+	}
+
+	private static void mostrarFuncionarios(List<Funcionario> funcionarios) {
+		for (Funcionario funcionario : funcionarios) {
+			funcionario.toString();
+		}
 	}
 
 	private static void aumentoSalario(List<Funcionario> funcionarios) {
@@ -31,10 +37,7 @@ public class Exercicio01 {
 					
 					System.out.println("Digite a porcentagem do aumento salarial: ");
 					double porcentagem = leia.nextDouble();
-					
-					double novoSalario = funcionario.getSalario() + ((funcionario.getSalario() * porcentagem) / 100);
-					funcionario.setSalario(novoSalario);
-					
+					funcionario.aumentarSalario(porcentagem);
 					break;
 					
 				} else {
