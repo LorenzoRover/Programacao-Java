@@ -17,7 +17,31 @@ public class Exercicio01 {
 		List<Funcionario> funcionarios = new ArrayList<>(leia.nextInt());
 		
 		adicionarFuncionario(funcionarios);
+		aumentoSalario(funcionarios);
 		
+	}
+
+	private static void aumentoSalario(List<Funcionario> funcionarios) {
+		System.out.println("Digite o ID do funcionário: ");
+		int numero = leia.nextInt();
+		
+		for (Funcionario funcionario : funcionarios) {
+			while (true) {
+				if (funcionario.getId() == numero) {
+					
+					System.out.println("Digite a porcentagem do aumento salarial: ");
+					double porcentagem = leia.nextDouble();
+					
+					double novoSalario = funcionario.getSalario() + ((funcionario.getSalario() * porcentagem) / 100);
+					funcionario.setSalario(novoSalario);
+					
+					break;
+					
+				} else {
+					System.out.println("Erro");
+				}
+			}
+		}
 	}
 
 	private static void adicionarFuncionario(List<Funcionario> funcionarios) {
@@ -35,5 +59,7 @@ public class Exercicio01 {
 			funcionarios.add(funcionario);
 		}
 	}
+	
+	
 
 }

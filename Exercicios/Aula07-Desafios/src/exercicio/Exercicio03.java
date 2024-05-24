@@ -20,11 +20,8 @@ public class Exercicio03 {
 	}
 
 	private static void mostrarQuartosOcupados(List<Quarto>[] quartos) {
-		
-		//fazer uma copia para dar sort
-		List<Quarto>[] quartoEmOrdemLists = new ArrayList[9];
-		quartoEmOrdemLists.clone();
 		for (List<Quarto> quarto : quartos) {
+			quarto.sort(null);
 			quarto.toString();
 		}
 	}
