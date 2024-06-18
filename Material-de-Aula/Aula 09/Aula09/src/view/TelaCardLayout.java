@@ -4,9 +4,8 @@ import java.awt.EventQueue;
 
 import javax.swing.JFrame;
 import javax.swing.JPanel;
-import java.awt.SystemColor;
+import java.awt.Color;
 import java.awt.CardLayout;
-import javax.swing.JLabel;
 import javax.swing.JButton;
 import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
@@ -46,67 +45,60 @@ public class TelaCardLayout {
 		frame.setBounds(100, 100, 450, 300);
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		frame.getContentPane().setLayout(null);
-
+		
 		JPanel panel = new JPanel();
-		panel.setBackground(SystemColor.activeCaptionBorder);
-		panel.setBounds(0, 49, 434, 212);
+		panel.setBackground(Color.LIGHT_GRAY);
+		panel.setBounds(0, 51, 434, 210);
 		frame.getContentPane().add(panel);
 		panel.setLayout(new CardLayout(0, 0));
-
+		
 		JPanel panel_1 = new JPanel();
-		panel.add(panel_1, "tela1");
+		panel_1.setBackground(Color.PINK);
+		panel.add(panel_1, "rosa");
 		panel_1.setLayout(null);
-
-		JLabel lblNewLabel = new JLabel("Este é o painel 1");
-		lblNewLabel.setBounds(135, 67, 132, 63);
-		panel_1.add(lblNewLabel);
-
+		
 		JPanel panel_2 = new JPanel();
-		panel.add(panel_2, "tela2");
+		panel_2.setBackground(Color.RED);
+		panel.add(panel_2, "vermelho");
 		panel_2.setLayout(null);
-
-		JLabel lblNewLabel_1 = new JLabel("Este é o painel 2");
-		lblNewLabel_1.setBounds(139, 61, 130, 75);
-		panel_2.add(lblNewLabel_1);
-
+		
 		JPanel panel_3 = new JPanel();
-		panel.add(panel_3, "tela3");
+		panel_3.setBackground(Color.BLUE);
+		panel.add(panel_3, "azul");
 		panel_3.setLayout(null);
-
-		JLabel lblNewLabel_2 = new JLabel("Este é o painel 3");
-		lblNewLabel_2.setBounds(145, 60, 122, 88);
-		panel_3.add(lblNewLabel_2);
-
-		JButton btnNewButton = new JButton("Painel 1");
-		btnNewButton.addActionListener(new ActionListener() {
+		
+		JButton btnRosa = new JButton("Rosa");
+		btnRosa.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
-
+				
 				CardLayout cl = (CardLayout) panel.getLayout();
-				cl.show(panel, "tela1");
-
+				cl.show(panel,"rosa");
+				
 			}
 		});
-		btnNewButton.setBounds(34, 11, 89, 23);
-		frame.getContentPane().add(btnNewButton);
-
-		JButton btnPainel = new JButton("Painel 2");
-		btnPainel.addActionListener(new ActionListener() {
+		btnRosa.setBounds(33, 11, 89, 23);
+		frame.getContentPane().add(btnRosa);
+		
+		JButton btnVermelho = new JButton("Vermelho");
+		btnVermelho.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
+				
 				CardLayout cl = (CardLayout) panel.getLayout();
-				cl.show(panel, "tela2");
+				cl.show(panel,"vermelho");
 			}
 		});
-		btnPainel.setBounds(161, 11, 89, 23);
-		frame.getContentPane().add(btnPainel);
-
-		JButton btnNewButton_1_1 = new JButton("Painel 3");
-		btnNewButton_1_1.addActionListener(new ActionListener() {
+		btnVermelho.setBounds(156, 11, 89, 23);
+		frame.getContentPane().add(btnVermelho);
+		
+		JButton btnNewAzul = new JButton("Azul");
+		btnNewAzul.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
+				
 				CardLayout cl = (CardLayout) panel.getLayout();
-				cl.show(panel, "tela3");
+				cl.show(panel,"azul");
 			}
 		});
-		btnNewButton_1_1.setBounds(286, 11, 89, 23);
-		frame.getContentPane().add(btnNewButton_1_1);
+		btnNewAzul.setBounds(275, 11, 89, 23);
+		frame.getContentPane().add(btnNewAzul);
 	}
 }
